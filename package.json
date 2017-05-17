@@ -1,0 +1,39 @@
+{
+  "name": "protobuf-require-hook",
+  "description": "A require hook to support importing Protocol Buffers `.desc` file",
+  "version": "0.1.0",
+  "author": "Masaki Tojo",
+  "bugs": {
+    "url": "https://github.com/mtojo/node-protobuf-require-hook/issues"
+  },
+  "dependencies": {
+    "protobufjs": "~6.7.3"
+  },
+  "devDependencies": {
+    "eslint": "~3.19.0",
+    "mocha": "~3.4.1",
+    "power-assert": "~1.4.2"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "homepage": "https://github.com/mtojo/node-protobuf-require-hook",
+  "keywords": [
+    "protobuf",
+    "require",
+    "hook"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mtojo/node-protobuf-require-hook.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha"
+  }
+}
